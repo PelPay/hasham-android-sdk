@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.chamsswitch.hasham",
+    "module": "hasham-mobile-sdk",
+    "version": "0.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hasham-mobile-sdk-0.2.1-SNAPSHOT.aar",
+          "url": "hasham-mobile-sdk-0.2.1-SNAPSHOT.aar",
+          "size": 111451,
+          "sha512": "0f364664ee82586694b6d306146422f923711b12062e5417ece26c44d73c2683d309ba301c146cd6f68b117a178e2be7c9081d9ea6f90713d0c10f52d8e237fc",
+          "sha256": "f303b13065befa3f71bd5bcb75e4c63459ab3f726b9e7f455777389b2117d4c1",
+          "sha1": "abdfa8aa24cad01c2096b2b915e122214d4aa38b",
+          "md5": "338063b8bebbeeea99630f89108ebf38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.1.0-alpha06"
+          }
+        },
+        {
+          "group": "com.google.android.play",
+          "module": "integrity",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hasham-mobile-sdk-0.2.1-SNAPSHOT.aar",
+          "url": "hasham-mobile-sdk-0.2.1-SNAPSHOT.aar",
+          "size": 111451,
+          "sha512": "0f364664ee82586694b6d306146422f923711b12062e5417ece26c44d73c2683d309ba301c146cd6f68b117a178e2be7c9081d9ea6f90713d0c10f52d8e237fc",
+          "sha256": "f303b13065befa3f71bd5bcb75e4c63459ab3f726b9e7f455777389b2117d4c1",
+          "sha1": "abdfa8aa24cad01c2096b2b915e122214d4aa38b",
+          "md5": "338063b8bebbeeea99630f89108ebf38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hasham-mobile-sdk-0.2.1-SNAPSHOT-sources.jar",
+          "url": "hasham-mobile-sdk-0.2.1-SNAPSHOT-sources.jar",
+          "size": 29223,
+          "sha512": "c4cd1f61350878aa73084cf1670458fdc745b9bc3ee69f3dc3a644ac664eac155e356d9cf61db46c41fa4d89d56330e5b3950933a9aa9bd4069459bfd88e01ea",
+          "sha256": "089107f27a790abc72ed9c1322aed4235a29e98a16a046e0a2fa832ef110eb6f",
+          "sha1": "464598041d26e022f5817613d046ef69f044d784",
+          "md5": "1d6528917f367369a5fa1545abbe73b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hasham-mobile-sdk-0.2.1-SNAPSHOT-javadoc.jar",
+          "url": "hasham-mobile-sdk-0.2.1-SNAPSHOT-javadoc.jar",
+          "size": 345716,
+          "sha512": "2d487c52121fa892870039115b6595f31fa9a8c3399eb76262cba2745443743c9b917b1f2e5d001f32a636faf79b1d7bca8f8176d5a57dc6e3c862ce5d97a82e",
+          "sha256": "efc288ba20abfbd5f1e0829c043f551382a3b82c2be8e7aca2f602de8e535db9",
+          "sha1": "00d9615721a8de33a3a3d805396f22a2926cd99c",
+          "md5": "79fee7071467d373b7c19692f257d352"
+        }
+      ]
+    }
+  ]
+}

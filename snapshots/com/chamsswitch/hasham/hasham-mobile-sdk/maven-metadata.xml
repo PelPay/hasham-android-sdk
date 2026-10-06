@@ -3,10 +3,10 @@
   <groupId>com.chamsswitch.hasham</groupId>
   <artifactId>hasham-mobile-sdk</artifactId>
   <versioning>
-    <latest>0.2.0-SNAPSHOT</latest>
+    <latest>0.2.1-SNAPSHOT</latest>
     <versions>
-      <version>0.2.0-SNAPSHOT</version>
+      <version>0.2.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260911132341</lastUpdated>
+    <lastUpdated>20261006173842</lastUpdated>
   </versioning>
 </metadata>
